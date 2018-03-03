@@ -22,7 +22,10 @@ const Navbar = () => (
       </div>
       <div className="navbar-start">
         <Link className="navbar-item" to="/about">
-          About
+          About Wai Yan
+        </Link>
+        <Link className="navbar-item" to="/contact">
+          Contact
         </Link>
       </div>
       <div className="navbar-end">
