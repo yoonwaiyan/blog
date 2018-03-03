@@ -9,6 +9,13 @@ const ContactForm = () => (
             <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
               Contact Me
             </h2>
+            <p style={{ marginBottom: '16px' }}>
+              I'm not very active in social media and I value my privacy too,
+              but no worries! I check my inbox everyday, so it's an easy and
+              direct way to connect with me. Send me an email using the form
+              below so that I can make pass of spam emails using FormSpree
+              (simple and elegant service!).
+            </p>
             <form
               method="POST"
               action="https://formspree.io/mail@waiyanyoon.com"
