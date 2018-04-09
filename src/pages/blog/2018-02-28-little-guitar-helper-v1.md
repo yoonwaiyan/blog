@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Little Guitar Helper v1
-date: '2014-12-20 00:43:20'
+date: 2014-12-20T00:43:00+08:00
 description: Curating the basic tools for guitar practice.
 ---
 <!-- Latest compiled and minified CSS -->
