@@ -20,8 +20,10 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
+            <div className="content-text">
+              <p>{description}</p>
+              <PostContent content={content} />
+            </div>
           </div>
         </div>
       </div>
