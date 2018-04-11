@@ -39,7 +39,16 @@ export default props => {
       content={post.html}
       contentComponent={HTMLContent}
       description={post.frontmatter.description}
-      helmet={<Helmet title={`Blog | ${post.frontmatter.title}`} />}
+      helmet={
+        <Helmet>
+          {' '}
+          <title>{`Blog | ${post.frontmatter.title}`}</title>{' '}
+          <link
+            href="https://fonts.googleapis.com/css?family=Cabin:600|EB+Garamond"
+            rel="stylesheet"
+          />
+        </Helmet>
+      }
       title={post.frontmatter.title}
     />
   );
